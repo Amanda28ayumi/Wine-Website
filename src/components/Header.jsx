@@ -18,7 +18,9 @@ export function Header( props ) {
                 <Navbar.Collapse id="main-nav">
                     <Nav>
                         <Nav.Link as={Link} to="/">Home</Nav.Link>
-                        <Nav.Link as={Link} to="/about">About</Nav.Link>
+                        <Nav.Link as={Link} to="/about">About us</Nav.Link>
+                        <Nav.Link as={Link} to="/blogs">Blogs</Nav.Link>
+                        <Nav.Link as={Link} to="/contact">Contact us</Nav.Link>
                         <Nav.Link as={Link} to="/login">Sign in</Nav.Link>
                         <Nav.Link as={Link} to="/register">Sign up</Nav.Link>
                     </Nav>
