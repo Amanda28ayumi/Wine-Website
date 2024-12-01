@@ -18,7 +18,7 @@ function App() {
 
   return (
     <>
-    <Header text="Wine" />
+    <Header text="Wine Valley" />
     <Routes>
       <Route path='/' element={ <Home/> } />
       <Route path="/about" element={ <About/> } />

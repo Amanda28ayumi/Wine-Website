@@ -8,7 +8,7 @@ import Logo from '../assets/preview.png.webp'
 
 export function Header( props ) {
     return (
-        <Navbar bg="light">
+        <Navbar expand="lg" bg="light">
             <Container>
                 <Navbar.Brand>
                     <img src={Logo} style={{ maxWidth: '80px'}} />
