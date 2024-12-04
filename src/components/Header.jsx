@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container'
 import {Link} from 'react-router-dom'
 import NavDropdown from 'react-bootstrap/NavDropdown';
 // logo
-import Logo from '../assets/preview.png.webp'
+import Logo from '../assets/Win&Valley.jpg'
 
 export function Header( props ) {
     return (

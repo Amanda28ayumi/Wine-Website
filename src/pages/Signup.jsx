@@ -23,7 +23,7 @@ export function Register(props) {
         <Container>
             <Row>
                 <Col md={{ span: 6, offset: 3 }}>
-                    <Form noValidate validated={validated} onSubmit={handleSubmit}>
+                    <Form noValidate validated={validated} onSubmit={handleSubmit} >
                         <h2>Sign up</h2>
                         <Form.Group controlId="validationCustomUsername">
                             <Form.Label>Username</Form.Label>
