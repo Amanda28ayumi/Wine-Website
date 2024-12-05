@@ -8,21 +8,21 @@ import Logo from '../assets/Win&Valley.jpg'
 
 export function Header( props ) {
     return (
-        <Navbar expand="lg" bg="light">
+        <Navbar expand="lg" style={{backgroundColor:"#741841"}}>
             <Container>
-                <Navbar.Brand>
-                    <img src={Logo} style={{ maxWidth: '80px'}} />
-                    { props.text }
+                <Navbar.Brand className="text-light">
+                    <img className="d-block mx-auto" src={Logo} style={{ maxWidth: '80px'}} />
+                    <div> { props.text } </div>
                     </Navbar.Brand>
                 <Navbar.Toggle aria-controls="main-nav" />
                 <Navbar.Collapse id="main-nav">
                     <Nav>
-                        <Nav.Link as={Link} to="/">Home</Nav.Link>
-                        <Nav.Link as={Link} to="/about">About us</Nav.Link>
-                        <Nav.Link as={Link} to="/blogs">Blogs</Nav.Link>
-                        <Nav.Link as={Link} to="/contact">Contact us</Nav.Link>
-                        <Nav.Link as={Link} to="/login">Sign in</Nav.Link>
-                        <Nav.Link as={Link} to="/register">Sign up</Nav.Link>
+                        <Nav.Link as={Link} to="/" className="text-light">Home</Nav.Link>
+                        <Nav.Link as={Link} to="/about" className="text-light">About us</Nav.Link>
+                        <Nav.Link as={Link} to="/blogs" className="text-light">Blogs</Nav.Link>
+                        <Nav.Link as={Link} to="/contact" className="text-light">Contact us</Nav.Link>
+                        <Nav.Link as={Link} to="/login" className="text-light">Sign in</Nav.Link>
+                        <Nav.Link as={Link} to="/register" className="text-light">Sign up</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
