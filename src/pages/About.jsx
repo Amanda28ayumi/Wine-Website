@@ -14,7 +14,7 @@ export function About( props ) {
                 </Col>
             </Row>
             <Row className="mt-4 mb-3">
-            <p>At Win&Valley (or WinEValley), every bottle of wine tells a story — a story of passion, tradition, and a dedication to crafting exceptional wines. <br/>
+            <p>At Win&Valley(WinEValley), every bottle of wine tells a story — a story of passion, tradition, and a dedication to crafting exceptional wines. <br/>
 
             <br/>It all began in a small valley, where lush hills and the perfect climate came together to create the ideal environment for viticulture. It was in this idyllic setting that our founder, a true wine lover, decided to follow his passion and transform his love for the land and the vines into something even more special. With the desire to share the beauty and flavor of his homeland with the world, Win&Valley was born. <br/>
 
